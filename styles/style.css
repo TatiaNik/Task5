@@ -14,7 +14,7 @@
     color:#274C5B;
     display: flex;
     justify-content: flex-start;
-    margin: 69px 162px;
+    margin: 69px 100px;
 }
 
 .logo {
@@ -30,17 +30,23 @@ li {
     padding-left: 39px;
 }
 
+.banner {
+    width: 100%;
+}
 .main-img {
     display: flex;
-    padding: 171px 260px 96px 260px;
+    justify-content: space-around;
+    padding-top: 171px;
 }
+
 
 .content {
     display: flex;
+    justify-content: center;
     flex-direction: column;
     align-items: flex-start;
     max-width: 936px;
-    margin: 0 462px;
+    margin-left: 492px;
 }
 
 h6 {
@@ -57,7 +63,101 @@ p {
     font-size: 18px;
     line-height: 165.4%;
     color: #525C60;
-    margin-top: 28px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-family: Roboto;
+    font-style: normal;
+    color:#274C5B;
+    font-size: 25px;
+    margin-top: 7px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    padding: 35px 40px;
+    background-color: #F9F8F8;
+    max-height: 260px;
+}
+
+.img1 {
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.img2 {
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+.text-child {
+    display: flex;
+}
+
+.content-child2 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+    align-items: center;
+}
+
+.content-child3 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding-top: 28px;
+}
+
+h5 {
+    font-family: roboto;
+    color: #274C5B;
+    font-size: 35px;
+    padding-top: 70px;
 }
 
 
+
+.photo-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.img-footer {
+    border-radius: 20px;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+b {
+    color: #274C5B;
+    font-family: roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.copyright {
+    display: flex;
+    justify-content: space-around;    
+}
+
+hr {
+    border: 1px solid #D4D4D4;
+    margin-top: 61px;
+
+}
